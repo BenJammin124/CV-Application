@@ -1,0 +1,136 @@
+.cv-preview {
+  border-radius: 10px;
+  margin: 0 1rem 0 1rem;
+  /* padding: 0.5rem; */
+  /* margin-top: 1rem; */
+  box-shadow: 0px 5px 8px 3px rgba(148, 148, 148, 0.69);
+  font-family: "DM Sans", sans-serif;
+  /* width: 810px; */
+}
+
+.previewHeader {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem;
+  height: 10.5rem;
+}
+
+.previewHeader h1 {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.previewHeader h2 {
+  color: white;
+  font-size: 1.125rem;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background-color: rgb(0, 110, 255);
+  border-top: 4px solid rgb(163, 175, 231);
+  border-bottom: 4px solid rgb(163, 175, 231);
+  flex: 1;
+  height: 100%;
+  padding: 1rem 1rem 1rem 1.5rem;
+}
+
+.headerRight {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4em;
+  /* margin-right: 2rem; */
+  border-top: 4px solid rgb(163, 175, 231);
+  border-bottom: 4px solid rgb(163, 175, 231);
+  /* border-right: 4px solid white; */
+  background-color: white;
+  flex: 1;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.headerIcon {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.6em;
+  align-items: center;
+  /* margin: 5px 0 5px 0; */
+}
+
+.headerIcon img {
+  width: 20px;
+}
+
+/* education section/experience */
+.education-wrapper,
+.experience-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* margin: 1rem; */
+}
+
+.education-wrapper h2,
+.experience-wrapper h2 {
+  text-align: center;
+  background-color: rgb(229, 230, 238);
+  margin: 1.8rem 0;
+}
+
+.education,
+.experience {
+  margin: 0 4rem;
+}
+
+.schoolBox {
+  display: flex;
+  gap: 2.6rem;
+  /* padding: 1rem; */
+  margin-bottom: 0.5rem;
+}
+
+.school-title,
+.companyName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  /* font-style: italic; */
+}
+
+.schoolLeft {
+  font-size: 1rem;
+  min-width: max-content;
+}
+
+.schoolRight {
+  margin-top: -0.25rem;
+}
+
+/* experience section */
+.experienceBox {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.experienceBox p:last-of-type {
+  margin-top: 0.2rem;
+}
+
+.experienceLeft {
+  width: 105px;
+  flex-shrink: 0;
+}
+
+.experienceRight {
+  flex-grow: 1;
+}
+
+@media (max-width: 600px) {
+  .cv-preview {
+    margin: 1rem 0;
+  }
+}
